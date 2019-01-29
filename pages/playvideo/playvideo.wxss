@@ -1,0 +1,6 @@
+/* pages/playvideo/playvideo.wxss */
+view{
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+}

@@ -1,0 +1,10 @@
+/* pages/video/video.wxss */
+view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+navigator{
+  margin: 100rpx 0;
+}

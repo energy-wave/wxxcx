@@ -1,0 +1,5 @@
+<!--pages/weather/weather.wxml-->
+<view>
+<text>天气预报</text>
+
+</view>

@@ -1,0 +1,4 @@
+<!--pages/play/play.wxml-->
+<view class='play'>
+  <image src='{{pic}}'></image>
+</view>

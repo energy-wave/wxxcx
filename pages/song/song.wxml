@@ -1,0 +1,10 @@
+<!--pages/song/song.wxml-->
+<view class='song'>
+  <navigator class='item' wx:for="{{song}}" wx:key="id" url='/pages/playsong/playsong?url={{item.url}}&pic={{item.pic}}'>
+    <image src="{{item.pic}}"></image>
+    <view class='content'>
+      <text class='title'>{{item.title}}</text>
+      <text class='author'>{{item.author}}</text>
+    </view>
+  </navigator>
+</view>

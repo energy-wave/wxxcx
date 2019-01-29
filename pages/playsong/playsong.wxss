@@ -1,0 +1,12 @@
+/* pages/play/play.wxss */
+.play {
+  margin-top: 200rpx;
+  display: flex;
+  justify-content: center;
+}
+image {
+  width: 300rpx;
+  height: 300rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 50%;
+}

@@ -1,0 +1,4 @@
+<!--pages/video/video.wxml-->
+<view class='video' wx:for="{{video}}" wx:key="_id">
+  <navigator url='/pages/playvideo/playvideo?url={{item.url}}'>{{item.title}}</navigator> 
+</view>
