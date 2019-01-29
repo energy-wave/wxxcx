@@ -1,14 +1,9 @@
-<!--pages/Me/Me.wxml-->
+<!-- pages/Me/Me.wxml -->
 <view class='me'>
-  <image class='me-img' src=''></image>
-  <view class='me-info'>
-    <text class='me-title'>标题</text>
-    <text class='me-tel'>电话</text>
-    <text class='me-address'>地址</text>
-    <text class='me-time'>时间</text>
-  </view>
-  <view class='me-star'>
-    <view class='start-after'>★★★★★</view>
-    <view class='start-before'>★★★★★</view>
-  </view>
+    <image src="/assets/images/Me.jpg" mode="aspectFill" />
+    <view class="content">
+        <text>姓名：李学博</text>
+        <text>做自己喜欢的事，此生不渝，不忘初心</text>
+        <text>www.energywave.top</text>
+    </view>
 </view>

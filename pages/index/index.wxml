@@ -10,11 +10,11 @@
   </view>
   <!-- 导航 -->
   <view class='index-nav'>
-    <navigator class='nav-item bdr' url='/pages/List/List'>
+    <navigator class='nav-item bdr' url='/pages/Me/Me'>
       <image src='/assets/icons/grid-01.png'></image>
-      <text>我</text>
+      <text>李学博</text>
     </navigator>
-    <navigator class='nav-item bdr'>
+    <navigator class='nav-item bdr'  url='/pages/weather/weather'>
       <image src='/assets/icons/grid-02.png'></image>
       <text>天气</text>
     </navigator>

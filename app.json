@@ -9,7 +9,8 @@
     "pages/video/video",
     "pages/playsong/playsong",
     "pages/playvideo/playvideo",
-    "pages/weather/weather"
+    "pages/weather/weather",
+    "pages/messages/messages"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,1 +1,33 @@
 /* pages/weather/weather.wxss */
+.weather{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content{
+    border: 1px solid #333;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50rpx;
+}
+.title{
+    margin: 50rpx 0;
+}
+image{
+    width:102rpx ;
+    height: 102rpx;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+}
+text{
+    flex: 0 0 50%;
+}
+.reporttime{
+    flex: 0 0 100%;
+    padding-left: 0rpx;
+}

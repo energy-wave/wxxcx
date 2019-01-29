@@ -1,5 +1,14 @@
-<!--pages/weather/weather.wxml-->
-<view>
-<text>天气预报</text>
-
+<!-- pages/weather/weather.wxml -->
+<view class="weather">
+    <text class="title">天气预报</text>
+    <view class="content" wx:for="{{weather}}" wx:key="adcode">
+        <text class="province">{{item.province}}{{item.city}}</text>
+        <view class="data">
+            <text class="temperature">温度：{{item.temperature}}℃</text>
+            <text class="weather">天气:{{item.weather}}</text>
+            <text class="winddirection">风向：{{item.winddirection}}</text>
+            <text class="windpower">风级：{{item.windpower}}</text>
+            <text class="reporttime">{{item.reporttime}}</text>
+        </view>
+    </view>
 </view>

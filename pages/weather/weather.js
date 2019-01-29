@@ -5,21 +5,82 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    weather:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=210200',
+      success: (res) => {
+        this.setData({
+          weather: res.data.lives
+        })
+      }
+    })
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=150400',
+      success: (res) => {
+        this.setData({
+          weather: this.data.weather.concat(res.data.lives)
+        })
+        
+      }
+    })
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=150200',
+      success: (res) => {
+        this.setData({
+          weather: this.data.weather.concat(res.data.lives)
+        })
+        
+      }
+    })
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=110000',
+      success: (res) => {
+        this.setData({
+          weather: this.data.weather.concat(res.data.lives)
+        })
+        
+      }
+    })
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=330100',
+      success: (res) => {
+        this.setData({
+          weather: this.data.weather.concat(res.data.lives)
+        })
+        
+      }
+    })
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=310000',
+      success: (res) => {
+        this.setData({
+          weather: this.data.weather.concat(res.data.lives)
+        })
+        
+      }
+    })
+    wx.request({
+      url: 'https://restapi.amap.com/v3/weather/weatherInfo?key=9d20d1bd6df3f8f952e437c9d7ff003f&city=440100',
+      success: (res) => {
+        this.setData({
+          weather: this.data.weather.concat(res.data.lives)
+        })
+        
+      }
+    })
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
