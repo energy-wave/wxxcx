@@ -30,16 +30,14 @@
   height: 80rpx;
 }
 /* 入口 */
-.index-enter {
-  display: flex;
-  padding: 20rpx 25rpx;
-}
-.index-enter .enter-item {
-  width: 50%;
+.enter-item{
   display: flex;
   justify-content: center;
+  margin: 30rpx 0;
 }
-.index-enter image {
-  width: 320rpx;
-  height: 178rpx;
+.enter-item image{
+  text-align: center;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
 }

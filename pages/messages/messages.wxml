@@ -1,2 +1,9 @@
-<!--pages/messages/messages.wxml-->
-<text>pages/messages/messages.wxml</text>
+<!-- pages/messages/messages.wxml -->
+<view class="messages">
+    <form class="messages-info" bindsubmit="sendData">
+        <input class="messages-name" auto-focus="{{true}}" name="name"/>
+        <input class="messages-msg" name="msg"/>
+        <button form-type="submit">提交</button>
+        <button form-type="reset">重置</button>
+    </form>
+</view>

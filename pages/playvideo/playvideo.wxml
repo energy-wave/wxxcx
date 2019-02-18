@@ -1,4 +1,4 @@
 <!--pages/playvideo/playvideo.wxml-->
 <view>
-<video src='{{url}}'></video>
+<video src='{{url}}' autoplay></video>
 </view>

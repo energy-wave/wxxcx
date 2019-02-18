@@ -26,7 +26,7 @@
       <image src='/assets/icons/grid-04.png'></image>
       <text>视频</text>
     </navigator>
-    <navigator class='nav-item bdr'>
+    <navigator class='nav-item bdr' url='/pages/messages/messages'>
       <image src='/assets/icons/grid-05.png'></image>
       <text>留言</text>
     </navigator>
@@ -51,10 +51,7 @@
   <view class="divider"></view>
   <view class='index-enter'>
     <navigator class='enter-item'>
-      <image src='/assets/images/link-01.png'></image>
-    </navigator>
-    <navigator>
-      <image src='/assets/images/link-02.png'></image>
+      <image src='/assets/images/ew.jpg'></image>
     </navigator>
   </view>
 </view>
